@@ -1,4 +1,39 @@
-html {
+html {/*Give the header the color pallette of #fff7e1*/
+    
   height: 100%;
   width: 100%;
+}
+
+body {
+  background-image: url('image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;      /* Ensures the background covers the full viewport height */
+  width: 100vw;           /* Ensures the background covers the full viewport width */
+  margin: 0;              /* Removes default body margin */
+  padding: 0;             /* Removes default body padding */
+  box-sizing: border-box; /* Ensures sizing includes padding and border */
+}
+
+h1 {
+  color: #fff7e1;
+}
+h2 {
+  color: #fff7e1;
+}}
+
+.cta-btn {
+  display: block;
+  margin: 40px 0 0 0;
+  padding: 16px 32px;
+  background-color: #fed8c1;
+  color: #2d2d2d;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  width: fit-content;
 }
